@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style1.css" />
+    <link rel="icon" href="syringe-solid.svg" />
+    <title>Where's my Vaccine?</title>
+  </head>
+  <body>
+    <nav class="navbar col-sm-12">
+    	<span class="navbar-header">Vacc<i class="fas fa-syringe fa-tada"></i>nation&nbsp;&nbsp;Centre&nbsp;&nbsp;Finder</span>
+    </nav>
+    <div class="container-fluid ">
+      <div class="date-box">
+        <input class="today-date" type="date" name="date" onload="(this.value=today_date)" onFocus="(this.type='date')" value="" required data-date-inline-picker="true"></input>
+      </div>
+      <div class="search-box">
+          <input class="search-input" type="text" name="pincode" placeholder="Enter your Area Pincode">
+          <span class="search-butt-box">
+            <button class="search-butt"><i class="fas fa-search"></i></button>
+          </span>
+          <span class="search-butt-box-md">
+            <button class="search-butt-md"><i class="fas fa-search"></i>Search</button>
+          </span>
+      </div>
+    </div>
+
+  <div class="container-fluid card-container">
+    <div class="row">
+
+      
+      
+    </div>
+  </div>
+  <footer>
+    <span class="footer">Source from 
+      <a href="https://apisetu.gov.in/public/api/cowin" target="_blank">Co-WIN Public APIs</a>
+    </span>
+    <span class="footer">Designed by 
+      <a href="https://www.linkedin.com/in/aftabkhan89/" target="_blank">Aftab Khan</a> 
+      & <a href="https://www.linkedin.com/in/dgx/" target="_blank">Darren Gonsalves</a> 
+      | Copyright <span class="far fa-copyright"></span> 2021. All rights reserved.</span>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
+<!-- card format -->
+      <!-- <div class="col-sm-11 col-md-11 col-lg-6">
+        <div class="card">
+          <div class="card-body">Centre Name:
+            <h3 class="card-title"> Palathingal Nimal Nainan</h5>
+
+            <p class="card-text">Centre Address: Palava</p>
+
+            <p class="card-text">Vaccine Name: COVISHIELD</p>
+
+            <p class="card-text">Fee: FREE</p>
+
+            <p class="card-text">Minimum Age Limit: 18</p>
+
+            <p class="card-text">Available Capacity Dose 1: 69</p>
+
+            <p class="card-text slot-time">Available Capacity Dose 2: 69</p>
+
+            <p class="card-text slot-time">Block Name: Dombivali</p>
+
+            <p class="card-text slot-time">District Name: Thane</p>
+
+            <p class="card-text">Available Slots:</p>
+            <p class="card-text slot-time">09:00AM-11:00AM | 11:00AM-01:00PM | 01:00PM-03:00PM | 03:00PM-06:00PM</p>
+          </div>
+        </div>
+      </div>
