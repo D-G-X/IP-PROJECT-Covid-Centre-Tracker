@@ -18,12 +18,18 @@
     <title>Where's my Vaccine?</title>
   </head>
   <body>
-    <nav class="navbar col-sm-12">
+    <nav class="navbar col-sm-12"> 
     	<span class="navbar-header">Vacc<i class="fas fa-syringe fa-tada"></i>nation&nbsp;&nbsp;Centre&nbsp;&nbsp;Finder</span>
     </nav>
-    <div class="container-fluid ">
-      <div class="date-box">
-        <input class="today-date" type="date" name="date" onload="(this.value=today_date)" onFocus="(this.type='date')" value="" required data-date-inline-picker="true"></input>
+    <div class="container-fluid">
+      <div class="date-box input-group">
+
+        <input class="today-date" type="date" id="today-date" name="date" onload="(this.value=today_date)" onFocus="(this.type='date')" value="" required data-date-inline-picker="true"> </input>
+        <label for="today-date">
+        <span class="input-group-addon">
+        	<span class="fas fa-chevron-down"></span>
+		</span>
+		</label>
       </div>
       <div class="search-box">
           <input class="search-input" type="text" name="pincode" placeholder="Enter your Area Pincode">
@@ -39,8 +45,6 @@
   <div class="container-fluid card-container">
     <div class="row">
 
-      
-      
     </div>
   </div>
   <footer>

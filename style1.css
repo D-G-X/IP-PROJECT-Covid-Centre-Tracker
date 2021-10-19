@@ -140,6 +140,19 @@ body{
     cursor: pointer;
 }
 
+
+.fa-chevron-down{
+    color: white;
+    z-index: 1;
+    /*border: 1px solid white;*/
+    margin-left: 74%;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left:15%;
+    font-size: 0.8rem;
+}
+
 input:focus,button:focus, textarea:focus, select:focus{
     outline: none;
 }
@@ -238,6 +251,17 @@ footer{
 .footer a:hover{
 	text-decoration: underline;
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(256, 256, 256, 1);
+    /*opacity: 1;*/
+    display: block;
+    /*background: white;*/
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
 
 @keyframes syringe_shake{
     from{
@@ -478,6 +502,17 @@ footer{
 }
 .card-text{
     font-size: 0.8rem;
+}
+
+.fa-chevron-down{
+    color: white;
+    z-index: 1;
+    /*border: 1px solid white;*/
+    margin-left: 74%;
+    width: 100%;
+    position: absolute;
+    top: 18px;
+    left:5%;
 }
 }
 @media(max-width: 364px){
