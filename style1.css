@@ -131,6 +131,7 @@ body{
     border: 4px solid #352e3e;
     background: #352e3e;
     padding-left: 14px;
+    appearance:none;
 }
 .today-date:hover{
     border: 4px solid #352e3e;
